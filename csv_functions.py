@@ -1,13 +1,14 @@
 # List of packages to import for this module
 from pathlib import Path
 import pandas as pd
+import numpy as np
 
 ##############################################################################################################################
 
-def get_csv(string):
+def get_csv(string,na_values = None):
 
     path = str(Path(__file__).parent)+'/data/'+string+'.csv'
-    df = pd.read_csv(path,header=0)
+    df = pd.read_csv(path,header=0,na_values = na_values)
     return df
 
 ##############################################################################################################################
@@ -30,16 +31,23 @@ def drivers_csv():
     return get_csv('drivers')
 ##############################################################################################################################
 def lap_times_csv():
-    return get_csv('lap_times')
+    lap_times =  get_csv('lap_times')
+    lap_times['time_seconds'] = lap_times['milliseconds']/1000
+    return lap_times
 ##############################################################################################################################
 def pit_stops_csv():
     return get_csv('pit_stops')
 ##############################################################################################################################
 def qualifying_csv():
-    return get_csv('qualifying')
+    qualifying =  get_csv('qualifying',na_values = r"\N")
+    for i in ['q1','q2','q3']:
+        qualifying[i+'_seconds'] = qualifying[i].str.split('[:|.]').apply(lambda x: float(str(60*int(x[0])+int(x[1]))+'.'+x[2]) if isinstance(x, list) else np.nan)
+    return qualifying
 ##############################################################################################################################
 def races_csv():
-    return get_csv('races')
+    races = get_csv('races')
+    races['date'] = pd.to_datetime(races['date'])
+    return races
 ##############################################################################################################################       
 def results_csv():
     return get_csv('results')
