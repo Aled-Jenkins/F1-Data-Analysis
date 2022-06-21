@@ -1,26 +1,15 @@
 ### PUSH BRANCH ###
 # Switch to Branch (or Create)
 git checkout aj_dev (git checkout -b aj_dev)
-
-# Add file to be staged
 git add FILE_PATH
-
-# Add file to be commited
-git commit -m "First Commit"
-
-# Push to Branch
+git commit -m "Commit Message"
 git push origin aj_dev (git push -u origin aj_dev)
 
 ### MERGE REQUEST ON GITHUB ###
 
 ### UPDATE LOCAL REPOS ###
-# Switch to Branch 
 git checkout main
-
-# Pull from main
 git pull
-
-# Switch to Branch and Merge
 git checkout aj_dev
 git merge main
 
