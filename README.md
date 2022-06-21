@@ -30,9 +30,9 @@
     <br />
     <a href="https://github.com/Aled-Jenkins/F1-Data-Analysis">View Demo</a>
     ·
-    <a href="https://github.com/Aled-Jenkins/F1-Data-Analysis">Report Bug</a>
+    <a href="https://github.com/Aled-Jenkins/F1-Data-Analysis/issues">Report Bug</a>
     ·
-    <a href="https://github.com/Aled-Jenkins/F1-Data-Analysis">Request Feature</a>
+    <a href="https://github.com/Aled-Jenkins/F1-Data-Analysis/issues">Request Feature</a>
   </p>
 </div>
 
@@ -183,7 +183,7 @@ Project Link: [https://github.com/Aled-Jenkins/F1-Data-Analysis](https://github.
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* [Aled Jenkins]()
+* [Aled Jenkins](aled.jenkins147@gmail.com)
 * []()
 * []()
 
