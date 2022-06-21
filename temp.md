@@ -205,4 +205,4 @@ Project Link: [https://github.com/Aled-Jenkins/F1-Data-Analysis](https://github.
 [license-url]: https://github.com/Aled-Jenkins/F1-Data-Analysis/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/aled-jenkins/
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: Images/screenshot.png
