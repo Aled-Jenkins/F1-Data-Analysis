@@ -89,7 +89,6 @@ The goal of this repo is a passion-project to look into the use of F1 Data to ma
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
@@ -201,7 +200,7 @@ Project Link: [https://github.com/Aled-Jenkins/F1-Data-Analysis](https://github.
 [stars-url]: https://github.com/Aled-Jenkins/F1-Data-Analysis/stargazers
 [issues-shield]: https://img.shields.io/github/issues/Aled-Jenkins/F1-Data-Analysis.svg?style=for-the-badge
 [issues-url]: https://github.com/Aled-Jenkins/F1-Data-Analysis/issues
-[license-shield]: https://img.shields.io/github/license/Aled-Jenkins/F1-Data-Analysis.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/Aled-Jenkins/F1-Data-Analysis?style=for-the-badge
 [license-url]: https://github.com/Aled-Jenkins/F1-Data-Analysis/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/aled-jenkins/
