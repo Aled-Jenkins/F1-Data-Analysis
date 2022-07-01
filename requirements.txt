@@ -1,8 +1,11 @@
-# numpy
 # pandas
-# matplotlib
 # requests
-
+# re
 # bs4
+# urllib
+# PyPDF2
+
+# numpy
+# matplotlib
 # json
 # pathlib
